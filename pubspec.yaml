@@ -1,0 +1,17 @@
+name: ad_hoc_ident_ocr_parse_mrz
+description: "Provides functionalities to extract identifiers from MRZ documents as part of the ad_hoc_identity framework."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_parse_mrz
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_parse_mrz
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  mrz_parser: ^2.0.0
+  ad_hoc_ident: ^0.0.1-preview-1
+  ad_hoc_ident_ocr: ^0.0.1-preview-1
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.8
